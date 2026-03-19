@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1773906334.4474463" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1773906334.4474463</text>
+    </name>
+    <page id="n0">
+      <place id="p1">
+        <name>
+          <text>p1</text>
+        </name>
+      </place>
+      <place id="p3">
+        <name>
+          <text>p3</text>
+        </name>
+      </place>
+      <place id="p7">
+        <name>
+          <text>p7</text>
+        </name>
+      </place>
+      <place id="p8">
+        <name>
+          <text>p8</text>
+        </name>
+      </place>
+      <place id="p0">
+        <name>
+          <text>p0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p4">
+        <name>
+          <text>p4</text>
+        </name>
+      </place>
+      <place id="p2">
+        <name>
+          <text>p2</text>
+        </name>
+      </place>
+      <place id="p5">
+        <name>
+          <text>p5</text>
+        </name>
+      </place>
+      <place id="p6">
+        <name>
+          <text>p6</text>
+        </name>
+      </place>
+      <place id="p9">
+        <name>
+          <text>p9</text>
+        </name>
+      </place>
+      <transition id="t0">
+        <name>
+          <text>a74</text>
+        </name>
+      </transition>
+      <transition id="t1">
+        <name>
+          <text>a46</text>
+        </name>
+      </transition>
+      <transition id="t3">
+        <name>
+          <text>a54</text>
+        </name>
+      </transition>
+      <transition id="t5">
+        <name>
+          <text>a56</text>
+        </name>
+      </transition>
+      <transition id="t7">
+        <name>
+          <text>a34</text>
+        </name>
+      </transition>
+      <transition id="t8">
+        <name>
+          <text>a81</text>
+        </name>
+      </transition>
+      <transition id="t4">
+        <name>
+          <text>a71</text>
+        </name>
+      </transition>
+      <transition id="t2">
+        <name>
+          <text>a89</text>
+        </name>
+      </transition>
+      <transition id="t6">
+        <name>
+          <text>a55</text>
+        </name>
+      </transition>
+      <arc id="2124086838560" source="p0" target="t0"/>
+      <arc id="2124086838080" source="t0" target="p1"/>
+      <arc id="2124086837600" source="t1" target="p2"/>
+      <arc id="2124086779616" source="p3" target="t3"/>
+      <arc id="2124086778944" source="p4" target="t4"/>
+      <arc id="2124086778656" source="t5" target="p6"/>
+      <arc id="2124086779328" source="t6" target="p7"/>
+      <arc id="2124086778272" source="p7" target="t7"/>
+      <arc id="2124086779232" source="t7" target="p8"/>
+      <arc id="2124086777408" source="t8" target="p9"/>
+      <arc id="2124086837744" source="p1" target="t1"/>
+      <arc id="2124086778512" source="p2" target="t2"/>
+      <arc id="2124086778992" source="t2" target="p3"/>
+      <arc id="2124086778416" source="t3" target="p4"/>
+      <arc id="2124086778320" source="t4" target="p5"/>
+      <arc id="2124086779376" source="p5" target="t5"/>
+      <arc id="2124086779280" source="p6" target="t6"/>
+      <arc id="2124086778800" source="p8" target="t8"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="p9">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
